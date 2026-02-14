@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+span{
+    color: #ff914d;
+}
+a{
+    text-decoration: none;
+}
+/* header styling */
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    height: 27px;
+    box-shadow: 3px 13px 13px 14px #ffac78 ;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header ul li{
+    margin-left: 12px;
+}
+header ul li a,a {
+    color: black;
+}
+header ul li a:hover{
+    color: #ff914d;
+}
+/* home styling */
+#home{
+    background-color: #ff914d;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: 5;
+    grid-template-rows: 2;
+    gap: 50px;
+    margin-bottom: 0;
+    height: fit-content;
+    z-index: 0;
+    padding: 23px;
+}
+#home ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+}
+#home  li{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #FFF3E6;
+    padding: 4px;
+    border: 2px solid #E76F2F;
+    color: #2B2D42;
+    border-radius: 26px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.219);
+
+}
+#home li:hover{
+    background-color: #fbd1b1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.219);
+}
+.header ,
+.AC,
+.EP,
+.HG,
+.IS,
+.LA,
+.LAR,
+.LF,
+.PHILO,
+.MATH,
+.PC,
+.SVT,
+.SI,
+.CMF,
+.EOAE,
+.EGS,
+.DR,
+.IG{
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.SE,.SM,.SECO,.STM,.STE{
+    display: none;
+}
+
+.items{
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    border: solid 1px black;
+    background: #FFF3E6;
+    padding: 3px;
+    font-size: 18px;
+    text-align: center;
+}
+.tableontainer{
+    width: 100%;
+}
+.headerHG{
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    border: solid 1px black;
+    background: #FFF3E6;
+    padding: 3px;
+    font-size: 18px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.header2{
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    border: solid 1px black;
+    background: #FFF3E6;
+    padding: 3px;
+    font-size: 18px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.lessons{
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    border: solid 1px black;
+    background: #FFF3E6;
+    padding: 3px;
+    font-size: 18px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+}
+.beside{
+    display: grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 25% 25%;
+
+} 
+.doros{
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    border: solid 1px black;
+    background: #FFF3E6;
+    padding: 3px;
+    font-size: 18px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 153px 153px;
+
+} 
+.choices{
+    display: none;
+}
+.choices .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 14px;
+}
+.choices p{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #FFF3E6;
+    padding: 4px;
+    border: 2px solid #E76F2F;
+    color: #2B2D42;
+    border-radius: 26px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.219);
+}
+.choices p:hover{
+    background-color: #fbd1b1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.219);
+}
+.stcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.stchoices {
+    display: none;
+}
+.stchoices p{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #FFF3E6;
+    padding: 4px;
+    border: 2px solid #E76F2F;
+    color: #2B2D42;
+    border-radius: 26px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.219);
+}
+.stchoices p:hover{
+    background-color: #fbd1b1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.219);
+}
+#finalseco{
+    background-color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    border: solid 1px black;
+    padding: 3px;
+    font-size: 17px;
+    margin: 9px;
+    cursor: pointer;
+}
+#finaleco:hover{
+    opacity: 0.7;
+}
+#finalse{
+    background-color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    border: solid 1px black;
+    padding: 3px;
+    font-size: 17px;
+    margin: 9px;
+    cursor: pointer;
+}
+#finalse:hover{
+    opacity: 0.7;
+}
+#finalste{
+    background-color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    border: solid 1px black;
+    padding: 3px;
+    font-size: 17px;
+    margin: 9px;
+    cursor: pointer;
+}
+#finalste:hover{
+    opacity: 0.7;
+}
+#finalsm{
+    background-color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    border: solid 1px black;
+    padding: 3px;
+    font-size: 17px;
+    margin: 9px;
+    cursor: pointer;
+}
+#finalsm:hover{
+    opacity: 0.7;
+}
+#finalstm {
+    background-color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    border: solid 1px black;
+    padding: 3px;
+    font-size: 17px;
+    margin: 9px;
+    cursor: pointer;
+}
+#finalstm :hover{
+    opacity: 0.7;
+}
+.note{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+.noteeco{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+.notestm{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+.notesm{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+.noteste{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+/* footer section styling */
+footer{
+    height: 25px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+footer ul li a:hover{
+    color: #ff914d;
+}
+/* contact styling */
+#contact{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+.pdf-icon {
+  font-size: 40px;
+  color: #E76F2F; /* your orange */
+  text-decoration: none;
+}
+
+.pdf-icon:hover {
+  color: #264653;
+}

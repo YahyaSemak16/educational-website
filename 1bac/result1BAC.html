@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucess N1</title>
+    <link rel="stylesheet" href="result1BAC.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <a href="../../index.html"><span>S</span>ucess your <span>Baccalaureate</span></a>
+        <ul>
+            <li><a href="index.html"><span>H</span>ome</a></li>
+            <li><a href="index.html"><span>A</span>bout</a></li>
+            <li><a href="index.html"><span>B</span>ranches</a></li>
+            <li><a href="index.html"><span>R</span>esults</a></li>
+            <li><a href="index.html"><span>C</span>ontact</a></li>
+        </ul>
+    </header>
+     <!-- home section -->
+    <div id="home">
+        <ul>
+            <li id="SE">1bac Sciences expérimentales</li>
+            <li id="SM">1bac Sciences maths</li>
+            <li id="SECO">1bac Sciences économiques</li>
+            <li id="STM">1bac Sciences et technologies mécaniques</li>
+            <li id="STE">1bac Sciences et technologies électriques</li>
+        </ul>
+        <div class="choices">
+                <div class="container">
+                    <p class="sehg" id="loadHG">HISTOIRE GEOGRAPHIE</p>
+                    <p class="seei" id="loadIS">INSTRUCTION ISLAMIQUE</p>
+                    <p class="sela" id="loadAR">LANGUE ARABE</p>
+                    <p class="self" id="loadFR">LANGUE FRANCAISE</p>
+                </div>
+        </div>
+        <div class="stchoices">
+                <div class="stcontainer">
+                    <p class="seei" id="loadISST">INSTRUCTION ISLAMIQUE</p>
+                    <p class="sela" id="loadARST">LANGUE ARABE</p>
+                    <p class="self" id="loadFRST">LANGUE FRANCAISE</p>
+                </div>
+        </div>
+
+        <!-- table will appear here -->
+        <div id="tableContainer"></div>
+    </div>
+    <div class="count">
+        <!-- 1bac Sciences expérimentales -->
+        <div class="SE" >
+            <div class="header">
+                <div></div>
+                <div class="items">1er note</div>
+                <div class="items">2eme note</div>
+                <div class="items">3eme note</div>
+                <div class="items">4eme note</div>
+                <div class="items">Activités intégrées</div>
+            </div>
+            <div class="AC">
+                <div class="items">ASSIDUITE ET CONDUITE</div>
+                <input type="number" class="items" id="AC1">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="EP">
+                <div class="items">EDUCATION PHYSIQUE</div>
+                <input type="number" class="items" id="EP1">
+                <input type="number" class="items" id="EP2">
+                <input type="number" class="items" id="EP3">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="HG">
+                <div class="items">HISTOIRE GEOGRAPHIE</div>
+                <input type="number" class="items" id="HG1">
+                <input type="number" class="items" id="HG2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="HG5">
+            </div>   
+            <div class="IS">
+                <div class="items">INSTRUCTION ISLAMIQUE</div>
+                <input type="number" class="items" id="IS1">
+                <input type="number" class="items" id="IS2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="IS5">
+            </div>   
+            <div class="LA">
+                <div class="items">LANGUE ANGLAISE</div>
+                <input type="number" class="items" id="LA1">
+                <input type="number" class="items" id="LA2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="LA5">
+            </div>   
+            <div class="LAR">
+                <div class="items">LANGUE ARABE</div>
+                <input type="number" class="items" id="LAR1">
+                <input type="number" class="items" id="LAR2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="LAR5">
+            </div>   
+            <div class="PHILO">
+                <div class="items">PHILOSOPHIE</div>
+                <input type="number" class="items" id="PHILO1">
+                <input type="number" class="items" id="PHILO2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="PHILO5">
+            </div>   
+            <div class="LF">
+                <div class="items">LANGUE FRANCAISE</div>
+                <input type="number" class="items" id="LF1">
+                <input type="number" class="items" id="LF2">
+                <input type="number" class="items" id="LF3">
+                <input type="number" class="items" id="LF4">
+                <input type="number" class="items" id="LF5">
+            </div>   
+            <div class="MATH">
+                <div class="items">MATHEMATIQUES</div>
+                <input type="number" class="items" id="MATH1">
+                <input type="number" class="items" id="MATH2">
+                <input type="number" class="items" id="MATH3">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="PC">
+                <div class="items">PHYSIQUE CHIMIE</div>
+                <input type="number" class="items" id="PC1" max="20" maxlength="2">
+                <input type="number" class="items" id="PC2">
+                <input type="number" class="items" id="PC3">
+                <input type="number" class="items" id="PC4">
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="SVT">
+                <div class="items">SC. DE LA VIE ET DE LA TERRE</div>
+                <input type="number" class="items" id="SVT1">
+                <input type="number" class="items" id="SVT2">
+                <input type="number" class="items" id="SVT3">
+                <input type="number" class="items" id="SVT4">
+                <div class="items" style="background-color: orange;"></div>
+            </div>
+            <button id="finalse">MA NOTE FINAL</button>
+            <div class="note"></div>
+        </div>
+        <div class="SM"  >
+            <div class="header">
+                <div></div>
+                <div class="items">1er note</div>
+                <div class="items">2eme note</div>
+                <div class="items">3eme note</div>
+                <div class="items">4eme note</div>
+                <div class="items">Activités intégrées</div>
+            </div>
+            <div class="AC">
+                <div class="items">ASSIDUITE ET CONDUITE</div>
+                <input type="number" class="items" id="SM_AC1">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="EP">
+                <div class="items">EDUCATION PHYSIQUE</div>
+                <input type="number" class="items" id="SM_EP1">
+                <input type="number" class="items" id="SM_EP2">
+                <input type="number" class="items" id="SM_EP3">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="HG">
+                <div class="items">HISTOIRE GEOGRAPHIE</div>
+                <input type="number" class="items" id="SM_HG1">
+                <input type="number" class="items" id="SM_HG2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="SM_HG5">
+            </div>   
+            <div class="IS">
+                <div class="items">INSTRUCTION ISLAMIQUE</div>
+                <input type="number" class="items" id="SM_IS1">
+                <input type="number" class="items" id="SM_IS2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="SM_IS5">
+            </div>   
+            <div class="LA">
+                <div class="items">LANGUE ANGLAISE</div>
+                <input type="number" class="items" id="SM_LA1">
+                <input type="number" class="items" id="SM_LA2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="SM_LA5">
+            </div>   
+            <div class="LAR">
+                <div class="items">LANGUE ARABE</div>
+                <input type="number" class="items" id="SM_LAR1">
+                <input type="number" class="items" id="SM_LAR2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="SM_LAR5">
+            </div>   
+            <div class="PHILO">
+                <div class="items">PHILOSOPHIE</div>
+                <input type="number" class="items" id="SM_PHILO1">
+                <input type="number" class="items" id="SM_PHILO2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="SM_PHILO5">
+            </div>   
+            <div class="LF">
+                <div class="items">LANGUE FRANCAISE</div>
+                <input type="number" class="items" id="SM_LF1">
+                <input type="number" class="items" id="SM_LF2">
+                <input type="number" class="items" id="SM_LF3">
+                <input type="number" class="items" id="SM_LF4">
+                <input type="number" class="items" id="SM_LF5">
+            </div>   
+            <div class="MATH">
+                <div class="items">MATHEMATIQUES</div>
+                <input type="number" class="items" id="SM_MATH1">
+                <input type="number" class="items" id="SM_MATH2">
+                <input type="number" class="items" id="SM_MATH3">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="PC">
+                <div class="items">PHYSIQUE CHIMIE</div>
+                <input type="number" class="items" id="SM_PC1">
+                <input type="number" class="items" id="SM_PC2">
+                <input type="number" class="items" id="SM_PC3">
+                <input type="number" class="items" id="SM_PC4">
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="SVT">
+                <div class="items">SC. DE LA VIE ET DE LA TERRE</div>
+                <input type="number" class="items" id="SM_SVT1">
+                <input type="number" class="items" id="SM_SVT2">
+                <input type="number" class="items" id="SM_SVT3">
+                <input type="number" class="items" id="SM_SVT4">
+                <div class="items" style="background-color: orange;"></div>
+            </div> 
+            <button id="finalsm">MA NOTE FINAL</button>  
+        <div class="notesm"></div>
+        </div>
+        <div class="STE" >
+            <div class="header">
+                <div></div>
+                <div class="items">1er note</div>
+                <div class="items">2eme note</div>
+                <div class="items">3eme note</div>
+                <div class="items">4eme note</div>
+                <div class="items">Activités intégrées</div>
+            </div>
+            <div class="AC">
+                <div class="items">ASSIDUITE ET CONDUITE</div>
+                <input type="number" class="items" id="STE_AC1">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="EP">
+                <div class="items">EDUCATION PHYSIQUE</div>
+                <input type="number" class="items" id="STE_EP1">
+                <input type="number" class="items" id="STE_EP2">
+                <input type="number" class="items" id="STE_EP3">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="HG">
+                <div class="items">HISTOIRE GEOGRAPHIE</div>
+                <input type="number" class="items" id="STE_HG1">
+                <input type="number" class="items" id="STE_HG2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="STE_HG5">
+            </div>   
+            <div class="IS">
+                <div class="items">INSTRUCTION ISLAMIQUE</div>
+                <input type="number" class="items" id="STE_IS1">
+                <input type="number" class="items" id="STE_IS2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="STE_IS5">
+            </div>   
+            <div class="LA">
+                <div class="items">LANGUE ANGLAISE</div>
+                <input type="number" class="items" id="STE_LA1">
+                <input type="number" class="items" id="STE_LA2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="STE_LA5">
+            </div>   
+            <div class="LAR">
+                <div class="items">LANGUE ARABE</div>
+                <input type="number" class="items" id="STE_LAR1">
+                <input type="number" class="items" id="STE_LAR2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="STE_LAR5">
+            </div>   
+            <div class="PHILO">
+                <div class="items">PHILOSOPHIE</div>
+                <input type="number" class="items" id="STE_PHILO1">
+                <input type="number" class="items" id="STE_PHILO2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="STE_PHILO5">
+            </div>   
+            <div class="LF">
+                <div class="items">LANGUE FRANCAISE</div>
+                <input type="number" class="items" id="STE_LF1">
+                <input type="number" class="items" id="STE_LF2">
+                <input type="number" class="items" id="STE_LF3">
+                <input type="number" class="items" id="STE_LF4">
+                <input type="number" class="items" id="STE_LF5">
+            </div>   
+            <div class="MATH">
+                <div class="items">MATHEMATIQUES</div>
+                <input type="number" class="items" id="STE_MATH1">
+                <input type="number" class="items" id="STE_MATH3">
+                <input type="number" class="items" id="STE_MATH2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="PC">
+                <div class="items">PHYSIQUE CHIMIE</div>
+                <input type="number" class="items" id="STE_PC1">
+                <input type="number" class="items" id="STE_PC2">
+                <input type="number" class="items" id="STE_PC3">
+                <input type="number" class="items" id="STE_PC4">
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="SI">
+                <div class="items">SCIENCE DE L'INGENIEURIE </div>
+                <input type="number" class="items" id="STE_SI1">
+                <input type="number" class="items" id="STE_SI2">
+                <input type="number" class="items" id="STE_SI3">
+                <input type="number" class="items" id="STE_SI4">
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+        <button id="finalste">MA NOTE FINAL</button>  
+        <div class="noteste"></div>
+        </div>
+        <div class="STM"  >
+            <div class="header">
+                <div></div>
+                <div class="items">1er note</div>
+                <div class="items">2eme note</div>
+                <div class="items">3eme note</div>
+                <div class="items">4eme note</div>
+                <div class="items">Activités intégrées</div>
+            </div>
+            <div class="AC">
+                <div class="items">ASSIDUITE ET CONDUITE</div>
+                <input type="number" class="items" id="STM_AC1">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="EP">
+                <div class="items">EDUCATION PHYSIQUE</div>
+                <input type="number" class="items" id="STM_EP1">
+                <input type="number" class="items" id="STM_EP2">
+                <input type="number" class="items" id="STM_EP3">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="HG">
+                <div class="items">HISTOIRE GEOGRAPHIE</div>
+                <input type="number" class="items" id="STM_HG1">
+                <input type="number" class="items" id="STM_HG2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="STM_HG5">
+            </div>   
+            <div class="IS">
+                <div class="items">INSTRUCTION ISLAMIQUE</div>
+                <input type="number" class="items" id="STM_IS1">
+                <input type="number" class="items" id="STM_IS2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="STM_IS5">
+            </div>   
+            <div class="LA">
+                <div class="items">LANGUE ANGLAISE</div>
+                <input type="number" class="items" id="STM_LA1">
+                <input type="number" class="items" id="STM_LA2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="STM_LA5">
+            </div>   
+            <div class="LAR">
+                <div class="items">LANGUE ARABE</div>
+                <input type="number" class="items" id="STM_LAR1">
+                <input type="number" class="items" id="STM_LAR2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="STM_LAR5">
+            </div>   
+            <div class="PHILO">
+                <div class="items">PHILOSOPHIE</div>
+                <input type="number" class="items" id="STM_PHILO1">
+                <input type="number" class="items" id="STM_PHILO2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="STM_PHILO5">
+            </div>   
+            <div class="LF">
+                <div class="items">LANGUE FRANCAISE</div>
+                <input type="number" class="items" id="STM_LF1">
+                <input type="number" class="items" id="STM_LF2">
+                <input type="number" class="items" id="STM_LF3">
+                <input type="number" class="items" id="STM_LF4">
+                <input type="number" class="items" id="STM_LF5">
+            </div>   
+            <div class="MATH">
+                <div class="items">MATHEMATIQUES</div>
+                <input type="number" class="items" id="STM_MATH1">
+                <input type="number" class="items" id="STM_MATH2">
+                <input type="number" class="items" id="STM_MATH3">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="PC">
+                <div class="items">PHYSIQUE CHIMIE</div>
+                <input type="number" class="items" id="STM_PC1">
+                <input type="number" class="items" id="STM_PC2">
+                <input type="number" class="items" id="STM_PC3">
+                <input type="number" class="items" id="STM_PC4">
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="SI">
+                <div class="items">SCIENCE DE L'INGENIEURIE </div>
+                <input type="number" class="items" id="STM_SI1">
+                <input type="number" class="items" id="STM_SI2">
+                <input type="number" class="items" id="STM_SI3">
+                <input type="number" class="items" id="STM_SI4">
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+        <button id="finalstm">MA NOTE FINAL</button>  
+        <div class="notestm"></div>
+        </div>
+        <div class="SECO" >
+            <div class="header">
+                <div></div>
+                <div class="items">1er note</div>
+                <div class="items">2eme note</div>
+                <div class="items">3eme note</div>
+                <div class="items">4eme note</div>
+                <div class="items">Activités intégrées</div>
+            </div>
+            <div class="AC">
+                <div class="items">ASSIDUITE ET CONDUITE</div>
+                <input type="number" class="items" id="SECO_AC1">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="EP">
+                <div class="items">EDUCATION PHYSIQUE</div>
+                <input type="number" class="items" id="SECO_EP1">
+                <input type="number" class="items" id="SECO_EP2">
+                <input type="number" class="items" id="SECO_EP3">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="HG">
+                <div class="items">HISTOIRE GEOGRAPHIE</div>
+                <input type="number" class="items" id="SECO_HG1">
+                <input type="number" class="items" id="SECO_HG2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="SECO_HG5">
+            </div>   
+            <div class="IS">
+                <div class="items">INSTRUCTION ISLAMIQUE</div>
+                <input type="number" class="items" id="SECO_IS1">
+                <input type="number" class="items" id="SECO_IS2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="SECO_IS5">
+            </div>   
+            <div class="LA">
+                <div class="items">LANGUE ANGLAISE</div>
+                <input type="number" class="items" id="SECO_LA1">
+                <input type="number" class="items" id="SECO_LA2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="SECO_LA5">
+            </div>   
+            <div class="LAR">
+                <div class="items">LANGUE ARABE</div>
+                <input type="number" class="items" id="SECO_LAR1">
+                <input type="number" class="items" id="SECO_LAR2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="SECO_LAR5">
+            </div>   
+            <div class="PHILO">
+                <div class="items">PHILOSOPHIE</div>
+                <input type="number" class="items" id="SECO_PHILO1">
+                <input type="number" class="items" id="SECO_PHILO2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="SECO_PHILO5">
+            </div>   
+            <div class="LF">
+                <div class="items">LANGUE FRANCAISE</div>
+                <input type="number" class="items" id="SECO_LF1">
+                <input type="number" class="items" id="SECO_LF2">
+                <input type="number" class="items" id="SECO_LF3">
+                <input type="number" class="items" id="SECO_LF4">
+                <input type="number" class="items" id="SECO_LF5">
+            </div>   
+            <div class="MATH">
+                <div class="items">MATHEMATIQUES</div>
+                <input type="number" class="items" id="SECO_MATH1">
+                <input type="number" class="items" id="SECO_MATH2">
+                <input type="number" class="items" id="SECO_MATH3">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+            </div>   
+            <div class="CMF">
+                <div class="items">COMPTABILITE ET MATHEMATUQUES FINANCIERES</div>
+                <input type="number" class="items" id="CMF1">
+                <input type="number" class="items" id="CMF2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="CMF5">
+            </div>   
+            <div class="EOAE">
+                <div class="items">ECONOMIE ET ORGANISATION ADMINISTRATIVES DES ENTREPRISES</div>
+                <input type="number" class="items" id="EOAE1">
+                <input type="number" class="items" id="EOAE2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="EOAE5">
+            </div> 
+            <div class="DR">
+                <div class="items">DROIT</div>
+                <input type="number" class="items" id="DR1">
+                <input type="number" class="items" id="DR2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="DR5">
+            </div>   
+            <div class="IG">
+                <div class="items">INFORMATIQUE DE GESTION</div>
+                <input type="number" class="items" id="IG1">
+                <input type="number" class="items" id="IG2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="IG5">
+            </div>
+            <div class="EGS">
+                <div class="items">ECONOMIE GENERALE ET STATISTIQUES</div>
+                <input type="number" class="items" id="EGS1">
+                <input type="number" class="items" id="EGS2">
+                <div class="items" style="background-color: orange;"></div>
+                <div class="items" style="background-color: orange;"></div>
+                <input type="number" class="items" id="EGS5">
+            </div>   
+            <button id="finalseco"> MA NOTE FINAL</button>  
+            <div class="noteeco"></div>
+        </div>
+    </div>
+    <!-- footer section -->
+    <footer>
+        <a href="index.html"><span>S</span>ucess your <span>Baccalaureate</span></a>
+        <ul>
+            <li><a href="index.html"><span>H</span>ome</a></li>
+            <li><a href="#about"><span>A</span>bout</a></li>
+            <li><a href="#branches"><span>B</span>ranches</a></li>
+            <li><a href="#results"><span>R</span>esults</a></li>
+            <li><a href="#contact"><span>C</span>ontact</a></li>
+        </ul>
+    </footer>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>

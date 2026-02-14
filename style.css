@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: #ff914d;
+}
+a{
+    text-decoration: none;
+}
+/* header styling */
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    height: 27px;
+    box-shadow: 3px 13px 13px 14px #ffac78 ;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+header ul li{
+    margin-left: 12px;
+}
+header ul li a,a {
+    color: black;
+}
+header ul li a:hover{
+    color: #ff914d;
+}
+/* hero style */
+#home{
+    background-color: #ff914d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0;
+}
+.side p{
+    background-color: #fff;
+    height: fit-content;
+    width: 576px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 26px;
+    padding: 9px;
+    box-shadow: 3px 13px 13px 14px #ffac78 ;
+}
+.side a{
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    background-color: white;
+    border-radius: 26px;
+    padding: 10px;
+    box-shadow: 3px 3px 13px 17px #ffac78 ;
+}
+.side a:hover{
+    box-shadow: 3px 13px 13px 20px #fcc29d ;
+    font-size: 15px;
+}
+/* result page styling */
+#results{
+    background-color: #e6e6e6;
+    height: fit-content;
+    margin-top: 0;
+    padding: 50px;
+}
+#results h1{
+    color: white;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#results ul{
+    list-style: none;
+    margin: auto;
+}
+#results ul li{
+    background-color: #fff;
+    height: 27px;
+    text-align: center;
+    color: black;
+    border-radius: 26px;
+    border: 2px solid black;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 12px;
+    padding: 7px;
+}
+#results ul li:hover{
+    opacity: 0.3;
+}
+/* footer section styling */
+footer{
+    height: 25px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+footer ul li a:hover{
+    color: #ff914d;
+}
+/* contact styling */
+#contact{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}

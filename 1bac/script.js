@@ -1,4 +1,3 @@
-
 const SE = document.querySelector("#SE");
 const RSE = document.querySelector(".SE");
 const SM = document.querySelector("#SM");

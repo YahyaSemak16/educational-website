@@ -116,7 +116,9 @@ header ul li a:hover{
     text-align: center;
 }
 .tableontainer{
-    width: 100%;
+    max-width: 1200px;
+     margin: auto;
+    overflow-x: auto;
 }
 .headerHG{
     color: black;

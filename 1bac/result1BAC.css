@@ -127,8 +127,9 @@ header ul li a:hover{
     padding: 3px;
     font-size: 18px;
     text-align: center;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
 }
 .header2{
     color: black;
@@ -140,11 +141,11 @@ header ul li a:hover{
     font-size: 18px;
     text-align: center;
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 .all{
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.16fr 0.16fr 0.16fr 0.25fr 0.25fr;
+    grid-template-columns: 25% 25% 8.333% 8.333% 8.333% 12.5% 12.5%;
 }
 /* .lessons{
     color: black;

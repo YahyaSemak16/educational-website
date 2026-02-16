@@ -117,6 +117,8 @@ header ul li a:hover{
 }
 .tableontainer{
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .headerHG{
     color: black;

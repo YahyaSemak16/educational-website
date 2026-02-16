@@ -149,40 +149,6 @@ header ul li a:hover{
     display: grid;
     grid-template-columns: 25% 25% 8.333% 8.333% 8.333% 12.5% 12.5%;
 }
-/* .lessons{
-    color: black;
-    font-family: "Quicksand", sans-serif;
-    font-weight: 700;
-    border: solid 1px black;
-    background: #FFF3E6;
-    padding: 3px;
-    font-size: 18px;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 300px 300px;
-}
-.all{
-    display: flex;
-    flex-direction: row;
-}
-.beside{
-    display: grid;
-    grid-template-columns: 16.66% 16.66% 16.66% 25% 25%;
-
-} 
-.doros{
-    color: black;
-    font-family: "Quicksand", sans-serif;
-    font-weight: 700;
-    border: solid 1px black;
-    background: #FFF3E6;
-    padding: 3px;
-    font-size: 18px;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 100px 100px 100px 153px 153px;
-
-}  */ */
 .choices{
     display: none;
 }

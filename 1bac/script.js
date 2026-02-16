@@ -246,7 +246,7 @@ SE.addEventListener("click", () => {
   } else {
     RSE.style.display = "none";
   }
-  if (seChoice.style.display === "none" || seChoice.style.display === ""){
+  if(seChoice.style.display === "none" || seChoice.style.display === ""){
     stChoice.style.display ="none";
     seChoice.style.display = "block";
   }else{

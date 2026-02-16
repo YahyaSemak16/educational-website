@@ -250,7 +250,7 @@ SE.addEventListener("click", () => {
     stChoice.style.display ="none";
     seChoice.style.display = "block";
   }else{
-    seChoice.style.display = "block";
+    seChoice.style.display = "none";
   }
 });
 
@@ -270,7 +270,7 @@ SM.addEventListener("click", () => {
     seChoice.style.display = "block";
   }
   else{
-    seChoice.style.display = "block";
+    seChoice.style.display = "none";
   }
 });
 
@@ -289,7 +289,7 @@ SECO.addEventListener("click", () => {
     seChoice.style.display = "block";
   }
   else{
-    seChoice.style.display = "block";
+    seChoice.style.display = "none";
   }
 });
 
@@ -308,7 +308,7 @@ STE.addEventListener("click", () => {
     stChoice.style.display = "block";
   }
   else{
-    stChoice.style.display = "block";
+    stChoice.style.display = "none";
   }
 });
 
@@ -326,7 +326,7 @@ STM.addEventListener("click", () => {
     seChoice.style.display = "none";
     stChoice.style.display = "block";
   }else{
-    stChoice.style.display = "block";
+    stChoice.style.display = "none";
   }
 });
 

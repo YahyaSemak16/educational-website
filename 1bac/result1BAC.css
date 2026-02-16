@@ -117,8 +117,6 @@ header ul li a:hover{
 }
 .tableontainer{
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 .headerHG{
     color: black;
@@ -142,9 +140,13 @@ header ul li a:hover{
     font-size: 18px;
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
 }
-.lessons{
+.all{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.16fr 0.16fr 0.16fr 0.25fr 0.25fr;
+}
+/* .lessons{
     color: black;
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
@@ -177,7 +179,7 @@ header ul li a:hover{
     display: grid;
     grid-template-columns: 100px 100px 100px 153px 153px;
 
-} 
+}  */ */
 .choices{
     display: none;
 }
